@@ -67,7 +67,7 @@ program designed_to_terminate_normally
   implicit none
   real, allocatable :: parabola_roots(:)
 
-  associate(parabola => parabola_t(a=1, b=0, c=1.))
+  associate(parabola => parabola_t(a=1, b=0, c=-1.))
     associate(parabola_roots => parabola%roots())
     end associate
   end associate
