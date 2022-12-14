@@ -1,5 +1,4 @@
 module parabola_m
-  use assert_m, only : assert
   implicit none
 
   private
@@ -37,6 +36,7 @@ module parabola_m
 end module parabola_m
 
 submodule(parabola_m) parabola_s
+  use assert_m, only : assert
   implicit none
 
 contains
