@@ -18,6 +18,12 @@ module parabola_m
       type(parabola_t) parabola
       real, intent(in) :: a, b, c
     end function
+
+    pure module function construct_from_array(coefficients) result(parabola)
+      implicit none
+      type(parabola_t) parabola
+      real, intent(in) :: coefficients(:)
+    end function
      
   end interface
 

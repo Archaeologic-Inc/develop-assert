@@ -10,6 +10,13 @@ contains
     parabola%c_ = c
   end procedure
 
+  module procedure construct_from_array
+    call assert(size(coefficients)==3, "construct_from_array: size(coefficients)==3", diagnostic_data=size(coefficients))
+    parabola%a_ = coefficients(1)
+    parabola%b_ = coefficients(2)
+    parabola%c_ = coefficients(3)
+  end procedure
+
   module procedure roots
 
     associate(a => (self%a_), b => (self%b_), c => (self%c_))
