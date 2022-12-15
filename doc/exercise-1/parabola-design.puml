@@ -1,0 +1,15 @@
+@startuml
+Title "Parabola_t Developer Design Document"
+
+hide empty members
+
+class parabola_t{
+ - a_ : real
+ - b_ : real
+ - c_ : real
+ + roots() : real[]
+}
+
+note right of parabola_t : context: parabola_t::roots() **pre:** b_**2 - 4*a*c >= 0. \n\.context: parabola_t::roots() **post:** all(a_*roots()**2 + b_*roots() + c_ < tolerance)
+
+@enduml

@@ -1,0 +1,11 @@
+@startuml
+Title "Parabola_t User Interface"
+
+hide empty members
+
+class parabola_t{
+ roots() : real[]
+}
+
+@enduml
+

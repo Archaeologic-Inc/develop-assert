@@ -1,0 +1,7 @@
+@startuml
+Title "Parabola_t Class"
+
+hide empty members
+class parabola_t
+
+@enduml
