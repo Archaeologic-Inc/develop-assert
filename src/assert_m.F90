@@ -11,7 +11,7 @@ module assert_m
        implicit none
        logical, intent(in) :: assertion
        character(len=*), intent(in) :: description
-       real, intent(in) :: diagnostic_data
+       real, intent(in), optional :: diagnostic_data
      end subroutine
 
   end interface 
