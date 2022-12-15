@@ -9,8 +9,7 @@ Single-Pane Class Diagram
 User Interface
 ---------------
 
-![SoWkIImgAStDuGh9BCb9LL0AI2nAJChFIOmlKN3EIImkLkBYoiXCILL8pIqegLJ8JSrDIYqgvk9A1iaf5C0LLtCf5ENdbnHhQ2fOAHIb9kP4ntBLSd4vfEQbW0m70000](https://user-images.githubusercontent.com/13108868/207763360-a24b9cd1-740b-43d2-a8ae-8ab6ded43157.png)
-
+![JSwz2i9G34VnFK_nfrCBVG8ffQkRWquYadiRiN0_If8E8hwxk4Zdmu7VPCxgMqvqNZm9cXChXvhuxhYOA8x5HHySfI5wBhD0ykelPCb1r8XYOZEi_-jD60R4MinrYruLuxZBBVS8FM97q5hTsWu7g72wtkX3D4cPVvWl](https://user-images.githubusercontent.com/13108868/207769181-c494d3a1-e1da-4898-ba97-e5d173d0f5d6.png)
 
 Design Description for Contributors
 -----------------------------------
